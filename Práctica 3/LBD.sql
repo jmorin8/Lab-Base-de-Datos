@@ -69,7 +69,7 @@ add constraint rel_sexo_persona foreign key (idsexo) references sexo(idsexo);
 alter table ciudad
 add constraint rel_estado_ciudad foreign key (idestado) references estado(idestado);
 
-alter table colinia
+alter table colonia
 add constraint rel_ciudad_colonia foreign key (idciudad) references ciudad(idciudad);
 
 alter table domicilio
